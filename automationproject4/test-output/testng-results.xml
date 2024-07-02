@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-03T01:58:19 BDT" name="Default suite" finished-at="2024-07-03T01:58:28 BDT" duration-ms="8674">
+    <groups>
+    </groups>
+    <test started-at="2024-07-03T01:58:19 BDT" name="Default test" finished-at="2024-07-03T01:58:28 BDT" duration-ms="8674">
+      <class name="automationproject4.TestAnnotation">
+        <test-method is-config="true" signature="init()[pri:0, instance:automationproject4.TestAnnotation@77c2494c]" started-at="2024-07-03T01:58:19 BDT" name="init" finished-at="2024-07-03T01:58:24 BDT" duration-ms="4571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Nameform()[pri:1, instance:automationproject4.TestAnnotation@77c2494c]" started-at="2024-07-03T01:58:24 BDT" name="Nameform" finished-at="2024-07-03T01:58:24 BDT" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nameform -->
+        <test-method signature="RadiobuttonTest()[pri:2, instance:automationproject4.TestAnnotation@77c2494c]" started-at="2024-07-03T01:58:24 BDT" name="RadiobuttonTest" finished-at="2024-07-03T01:58:24 BDT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadiobuttonTest -->
+        <test-method signature="DropdownTest()[pri:3, instance:automationproject4.TestAnnotation@77c2494c]" started-at="2024-07-03T01:58:24 BDT" name="DropdownTest" finished-at="2024-07-03T01:58:24 BDT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropdownTest -->
+        <test-method signature="ChecklistTest()[pri:4, instance:automationproject4.TestAnnotation@77c2494c]" started-at="2024-07-03T01:58:24 BDT" name="ChecklistTest" finished-at="2024-07-03T01:58:24 BDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChecklistTest -->
+        <test-method signature="SubmitButtonTest()[pri:5, instance:automationproject4.TestAnnotation@77c2494c]" started-at="2024-07-03T01:58:24 BDT" name="SubmitButtonTest" finished-at="2024-07-03T01:58:28 BDT" duration-ms="3362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitButtonTest -->
+        <test-method signature="BrowserClose()[pri:6, instance:automationproject4.TestAnnotation@77c2494c]" started-at="2024-07-03T01:58:28 BDT" name="BrowserClose" finished-at="2024-07-03T01:58:28 BDT" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- automationproject4.TestAnnotation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
