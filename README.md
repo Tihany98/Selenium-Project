@@ -1,4 +1,4 @@
-# Automated Testing with Selenium WebDriver and Java
+# Automated Testing 
 This repository features automated tests for a web application using Selenium WebDriver with Java. The tests focus on performing basic checks for the application's login functionality and shopping cart operations.
 ## Test Scenarios
 This repository covers multiple tasks for automated testing.[This website](https://www.saucedemo.com/) is used for Task 1 and Task 2.
