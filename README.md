@@ -3,31 +3,31 @@ This repository features automated tests for a web application using Selenium We
 ## Test Scenarios
 This repository covers multiple tasks for automated testing:
 ## Task 1: Login Page Check and Navigation
- ### 1.Login Page Check using ID Locator:
+ ### 1. Login Page Check using ID Locator:
    - Locate and verify elements on the login page using ID locators.
- ### 2.Verify Website Title:
+ ### 2. Verify Website Title:
   -	Print and assert the current title of the website using an ID locator.
- ### 3.Verify Current URL:
+ ### 3. Verify Current URL:
   - Check and assert the current URL of the page after login.
 ## Task 2: Shopping Cart Operations
-### 1.Navigate to T-Shirt Product Page:
+### 1. Navigate to T-Shirt Product Page:
   - Click on the "T-shirt link" using an absolute path.
-### 2.Add Item to Cart:
+### 2. Add Item to Cart:
   - Add an item to the cart by clicking the "Add to Cart" button using an absolute path.
-### 3.View Shopping Cart:
+### 3. View Shopping Cart:
   -	View items in the cart by clicking on the shopping cart badge using a relative path.
-### 4.Continue Shopping:
+### 4. Continue Shopping:
  - Return to the previous page by clicking the "Continue shopping" button using an absolute path.
 ## Task 3: Form Submission Verification
-###  1.Fill in First Name and Last Name:
+###  1. Fill in First Name and Last Name:
   - Locate and fill the First Name and Last Name fields using ID locators.
-###  2.Check Radio Button Selection:
+###  2. Check Radio Button Selection:
   - Verify and assert the radio button selection using the isSelected() method.
-###  3.Verify Drop Down Selection:
-  - Locate and verify the selected option from the Drop Down using the <code style="color : gray">text</code>selectByVisibleText(), selectByIndex(),selectByValue() method.
-###  4.Check Multiple Options:
+###  3. Verify Drop Down Selection:
+  - Locate and verify the selected option from the Drop Down using the <code style="color : gray">selectByVisibleText()</code>, <code style="color : gray">selectByIndex()</code>, <code style="color : gray">selectByValue()</code> method.
+###  4. Check Multiple Options:
   - Select and verify multiple options from a list using the name attribute.
-###  5.Submit the Form:
+###  5. Submit the Form:
   -	Submit the form using a relative path.
 ## Task 4: Form Submission Verification using TestNG
  - Tests implemented using the TestNG framework can be found in the automation4 folder.
@@ -39,15 +39,15 @@ This repository covers multiple tasks for automated testing:
 -	TestNG: Framework for organizing test cases (Task 4).
 - Assertions: Used to validate expected outcomes.
 ## Setup Instructions
-### 1.Clone the Repository: GitHub Link
+### 1. Clone the Repository: (https://github.com/Tihany98/Selenium-Project) 
 ### 2.	Install Dependencies:
 -	Ensure you have Java Development Kit (JDK) installed.
 - Use Maven or Gradle for managing dependencies.
-### 3.Configure WebDriver:
+### 3. Configure WebDriver:
 - Download the appropriate WebDriver executable (EdgeDriver, ChromeDriver, etc.) and place it in the /drivers directory.
-### 4.Run Tests:
+### 4. Run Tests:
 - Use Maven or Gradle to run the tests, or directly execute the test classes using your IDE.
-### 5.Review Test Results:
+### 5. Review Test Results:
 - Review the console output for test results and any assertions that failed.
 Feel free to explore the repository and contribute to improving these automated tests!
 
