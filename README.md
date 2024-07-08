@@ -50,6 +50,6 @@ This repository contains automated tests for a web application using Selenium We
  ### 4. Run Tests:
  - Use Maven or Gradle to run the tests, or directly execute the test classes using your IDE.
  ### 5. Review Test Results:
- - Review the console output for test results and any assertions that failed.
+ - Review the console output for test results and any assertions that failed.<br/>
 Feel free to explore the repository and contribute to improving these automated tests!
 
