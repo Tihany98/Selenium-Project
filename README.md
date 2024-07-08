@@ -4,18 +4,18 @@ This repository features automated tests for a web application using Selenium We
 This repository covers multiple tasks for automated testing.[This website](https://www.saucedemo.com/) is used for Task 1 and Task 2.
 ## Task 1: Login Page Check and Navigation
    ### 1. Login Page Check using ID Locator:
-   - Locate and verify elements on the login page using ID locators.
+    - Locate and verify elements on the login page using ID locators.
    ### 2. Verify Website Title:
-   -	Print and assert the current title of the website using an ID locator.
+    -	Print and assert the current title of the website using an ID locator.
    ### 3. Verify Current URL:
-   - Check and assert the current URL of the page after login.
+    - Check and assert the current URL of the page after login.
 ## Task 2: Shopping Cart Operations
    ### 1. Navigate to T-Shirt Product Page:
-     - Click on the "T-shirt link" using an absolute path.
+    - Click on the "T-shirt link" using an absolute path.
    ### 2. Add Item to Cart:
-     - Add an item to the cart by clicking the "Add to Cart" button using an absolute path.
+    - Add an item to the cart by clicking the "Add to Cart" button using an absolute path.
    ### 3. View Shopping Cart:
-     -	View items in the cart by clicking on the shopping cart badge using a relative path.
+    - View items in the cart by clicking on the shopping cart badge using a relative path.
    ### 4. Continue Shopping:
     - Return to the previous page by clicking the "Continue shopping" button using an absolute path.
 ## Test Scenario: Form Submission Checks
