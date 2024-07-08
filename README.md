@@ -24,7 +24,7 @@ This repository covers multiple tasks for automated testing:
 ###  2.Check Radio Button Selection:
   - Verify and assert the radio button selection using the isSelected() method.
 ###  3.Verify Drop Down Selection:
-  - Locate and verify the selected option from the Drop Down using the @@selectByVisibleText(@@), selectByIndex(),selectByValue() method.
+  - Locate and verify the selected option from the Drop Down using the <code style="color : gray">text</code>selectByVisibleText(), selectByIndex(),selectByValue() method.
 ###  4.Check Multiple Options:
   - Select and verify multiple options from a list using the name attribute.
 ###  5.Submit the Form:
