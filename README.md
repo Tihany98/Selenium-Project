@@ -22,7 +22,7 @@ This repository covers multiple tasks for automated testing:
 ###  1. Fill in First Name and Last Name:
   - Locate and fill the First Name and Last Name fields using ID locators.
 ###  2. Check Radio Button Selection:
-  - Verify and assert the radio button selection using the isSelected() method.
+  - Verify and assert the radio button selection using the <code style="color : gray">isSelected()</code> method.
 ###  3. Verify Drop Down Selection:
   - Locate and verify the selected option from the Drop Down using the <code style="color : gray">selectByVisibleText()</code>, <code style="color : gray">selectByIndex()</code>, <code style="color : gray">selectByValue()</code> method.
 ###  4. Check Multiple Options:
