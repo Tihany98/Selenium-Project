@@ -3,38 +3,38 @@ This repository features automated tests for a web application using Selenium We
 ## Test Scenarios
 This repository covers multiple tasks for automated testing.[This website](https://www.saucedemo.com/) is used for Task 1 and Task 2.
 ## Task 1: Login Page Check and Navigation
-  ### 1. Login Page Check using ID Locator:
-    - Locate and verify elements on the login page using ID locators.
-  ### 2. Verify Website Title:
+   ### 1. Login Page Check using ID Locator:
+   - Locate and verify elements on the login page using ID locators.
+   ### 2. Verify Website Title:
    -	Print and assert the current title of the website using an ID locator.
-  ### 3. Verify Current URL:
+   ### 3. Verify Current URL:
    - Check and assert the current URL of the page after login.
 ## Task 2: Shopping Cart Operations
- ### 1. Navigate to T-Shirt Product Page:
-   - Click on the "T-shirt link" using an absolute path.
- ### 2. Add Item to Cart:
-   - Add an item to the cart by clicking the "Add to Cart" button using an absolute path.
- ### 3. View Shopping Cart:
-   -	View items in the cart by clicking on the shopping cart badge using a relative path.
- ### 4. Continue Shopping:
-  - Return to the previous page by clicking the "Continue shopping" button using an absolute path.
+   ### 1. Navigate to T-Shirt Product Page:
+     - Click on the "T-shirt link" using an absolute path.
+   ### 2. Add Item to Cart:
+     - Add an item to the cart by clicking the "Add to Cart" button using an absolute path.
+   ### 3. View Shopping Cart:
+     -	View items in the cart by clicking on the shopping cart badge using a relative path.
+   ### 4. Continue Shopping:
+    - Return to the previous page by clicking the "Continue shopping" button using an absolute path.
 ## Test Scenario: Form Submission Checks
 This repository contains automated tests for a web application using Selenium WebDriver with Java. The tests are designed to perform various form submission checks on the application [Form](https://trytestingthis.netlify.app/) Task 3 and Task 4  was done using that website.
 ## Task 3: Form Submission Verification
- ###  1. Fill in First Name and Last Name:
-   - Locate and fill the First Name and Last Name fields using ID locators.
- ###  2. Check Radio Button Selection:
-   - Verify and assert the radio button selection using the <code style="color : gray">isSelected()</code> method.
- ###  3. Verify Drop Down Selection:
-   - Locate and verify the selected option from the Drop Down using the <code style="color : gray">selectByVisibleText()</code>, <code style="color : gray">selectByIndex()</code>, <code style="color : gray">selectByValue()</code> method.
- ###  4. Check Multiple Options:
-   - Select and verify multiple options from a list using the name attribute.
- ###  5. Submit the Form:
-   -	Submit the form using a relative path.
+   ###  1. Fill in First Name and Last Name:
+     - Locate and fill the First Name and Last Name fields using ID locators.
+   ###  2. Check Radio Button Selection:
+     - Verify and assert the radio button selection using the <code style="color : gray">isSelected()</code> method.
+   ###  3. Verify Drop Down Selection:
+     - Locate and verify the selected option from the Drop Down using the <code style="color : gray">selectByVisibleText()</code>, <code style="color : gray">selectByIndex()</code>, <code style="color : gray">selectByValue()</code> method.
+   ###  4. Check Multiple Options:
+     - Select and verify multiple options from a list using the name attribute.
+   ###  5. Submit the Form:
+     -	Submit the form using a relative path.
 ## Task 4: Form Submission Verification using TestNG
-  - Tests implemented using the TestNG framework can be found in the automation4 folder.
-  - Test cases for form submission functionalities are located in TestAnnotation.
-  - TestNG reports are automatically generated in the test-output directory.
+- Tests implemented using the TestNG framework can be found in the automation4 folder.
+- Test cases for form submission functionalities are located in TestAnnotation.
+- TestNG reports are automatically generated in the test-output directory.
 ## Tools Used: 
  - Selenium WebDriver: Automation tool for web browsers.
  -	Java: Programming language used for scripting.
