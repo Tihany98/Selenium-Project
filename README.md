@@ -24,7 +24,7 @@ This repository covers multiple tasks for automated testing:
 ###  2.Check Radio Button Selection:
   - Verify and assert the radio button selection using the isSelected() method.
 ###  3.Verify Drop Down Selection:
-  - Locate and verify the selected option from the Drop Down using the <span style="background-color: #fafafa">selectByVisibleText()</span>,selectByIndex(),selectByValue() method.
+  - Locate and verify the selected option from the Drop Down using the @@selectByVisibleText(@@), selectByIndex(),selectByValue() method.
 ###  4.Check Multiple Options:
   - Select and verify multiple options from a list using the name attribute.
 ###  5.Submit the Form:
@@ -33,7 +33,7 @@ This repository covers multiple tasks for automated testing:
  - Tests implemented using the TestNG framework can be found in the automation4 folder.
  - Test cases for form submission functionalities are located in TestAnnotation.
  - TestNG reports are automatically generated in the test-output directory.
-**Tools Used:** 
+## Tools Used: 
 - Selenium WebDriver: Automation tool for web browsers.
 -	Java: Programming language used for scripting.
 -	TestNG: Framework for organizing test cases (Task 4).
