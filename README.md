@@ -17,37 +17,37 @@ This repository covers multiple tasks for automated testing:
 ### 3.View Shopping Cart:
   -	View items in the cart by clicking on the shopping cart badge using a relative path.
 ### 4.Continue Shopping:
-      - Return to the previous page by clicking the "Continue shopping" button using an absolute path.
+ - Return to the previous page by clicking the "Continue shopping" button using an absolute path.
 ## Task 3: Form Submission Verification
 ###  1.Fill in First Name and Last Name:
-      - Locate and fill the First Name and Last Name fields using ID locators.
+  - Locate and fill the First Name and Last Name fields using ID locators.
 ###  2.Check Radio Button Selection:
-      - Verify and assert the radio button selection using the isSelected() method.
+  - Verify and assert the radio button selection using the isSelected() method.
 ###  3.Verify Drop Down Selection:
-      - Locate and verify the selected option from the Drop Down using the <span style="background-color: #fafafa">selectByVisibleText()</span>,selectByIndex(),selectByValue() method.
+  - Locate and verify the selected option from the Drop Down using the <span style="background-color: #fafafa">selectByVisibleText()</span>,selectByIndex(),selectByValue() method.
 ###  4.Check Multiple Options:
-      - Select and verify multiple options from a list using the name attribute.
+  - Select and verify multiple options from a list using the name attribute.
 ###  5.Submit the Form:
-      -	Submit the form using a relative path.
+  -	Submit the form using a relative path.
 ## Task 4: Form Submission Verification using TestNG
-      - Tests implemented using the TestNG framework can be found in the automation4 folder.
-      - Test cases for form submission functionalities are located in TestAnnotation.
-      - TestNG reports are automatically generated in the test-output directory.
+ - Tests implemented using the TestNG framework can be found in the automation4 folder.
+ - Test cases for form submission functionalities are located in TestAnnotation.
+ - TestNG reports are automatically generated in the test-output directory.
 **Tools Used:** 
-      •	Selenium WebDriver: Automation tool for web browsers.
-      •	Java: Programming language used for scripting.
-      •	TestNG: Framework for organizing test cases (Task 4).
-      •	Assertions: Used to validate expected outcomes.
+- Selenium WebDriver: Automation tool for web browsers.
+-	Java: Programming language used for scripting.
+-	TestNG: Framework for organizing test cases (Task 4).
+- Assertions: Used to validate expected outcomes.
 ## Setup Instructions
 ### 1.Clone the Repository: GitHub Link
 ### 2.	Install Dependencies:
-    -	Ensure you have Java Development Kit (JDK) installed.
-    - Use Maven or Gradle for managing dependencies.
+-	Ensure you have Java Development Kit (JDK) installed.
+- Use Maven or Gradle for managing dependencies.
 ### 3.Configure WebDriver:
-    - Download the appropriate WebDriver executable (EdgeDriver, ChromeDriver, etc.) and place it in the /drivers directory.
+- Download the appropriate WebDriver executable (EdgeDriver, ChromeDriver, etc.) and place it in the /drivers directory.
 ### 4.Run Tests:
-    - Use Maven or Gradle to run the tests, or directly execute the test classes using your IDE.
+- Use Maven or Gradle to run the tests, or directly execute the test classes using your IDE.
 ### 5.Review Test Results:
-    - Review the console output for test results and any assertions that failed.
+- Review the console output for test results and any assertions that failed.
 Feel free to explore the repository and contribute to improving these automated tests!
 
