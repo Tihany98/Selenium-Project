@@ -11,11 +11,11 @@ This repository covers multiple tasks for automated testing:
   - Check and assert the current URL of the page after login.
 ## Task 2: Shopping Cart Operations
 ### 1.Navigate to T-Shirt Product Page:
-      - Click on the "T-shirt link" using an absolute path.
+  - Click on the "T-shirt link" using an absolute path.
 ### 2.Add Item to Cart:
-      -	Add an item to the cart by clicking the "Add to Cart" button using an absolute path.
+  - Add an item to the cart by clicking the "Add to Cart" button using an absolute path.
 ### 3.View Shopping Cart:
-      -	View items in the cart by clicking on the shopping cart badge using a relative path.
+  -	View items in the cart by clicking on the shopping cart badge using a relative path.
 ### 4.Continue Shopping:
       - Return to the previous page by clicking the "Continue shopping" button using an absolute path.
 ## Task 3: Form Submission Verification
